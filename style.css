@@ -30,21 +30,21 @@ main{
 
 .picture1{
   height: 150px;
-  background-image: url(flow01.png);
+  background-image: url(img/flow01.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .picture2{
   height: 150px;
-  background-image: url(flow02.png);
+  background-image: url(img/flow02.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .picture3{
   height: 150px;
-  background-image: url(flow03.png);
+  background-image: url(img/flow03.png);
   background-position: bottom;
   background-size: cover;
 }
@@ -55,6 +55,11 @@ main{
   left: 0;
   background-color: #ff9a4b;
   color: #fff;
+}
+
+.title{
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 footer{
@@ -72,7 +77,6 @@ footer{
   .box{
     width: 90%;
     margin: 0 5% 20px 5%;
-    padding: 0;
   }
 
   .box:nth-last-child{
